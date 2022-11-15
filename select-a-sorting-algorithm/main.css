@@ -1,0 +1,92 @@
+body{
+  background-color: #87ceeb;
+}
+
+h1{
+  color: blue;
+  text-align: center;
+  font-family: system-ui;
+}
+
+#code{
+  width: 600px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: larger;
+  text-align: left;
+}
+
+.code-container{
+  align-self: right;
+  padding-right: 50px;
+}
+
+#algorithm-name{
+  font-family: system-ui;
+  position: absolute;
+  top: 85;
+  padding-left: 30px;
+}
+
+#unsorted-array{
+  font-family: system-ui;
+  position: absolute;
+  top: 220;
+  padding-left: 20;
+}
+
+.drop-down{
+  position: absolute;
+  top: 150;
+  padding-left: 20px;
+}
+
+#button{
+  position: absolute;
+  font-family: system-ui;
+  top: 190;
+  margin-left: 17;
+}
+label{
+  font-family: system-ui;
+}
+#sorted-array{
+  font-family: system-ui;
+  position: absolute;
+  top: 270;
+  padding-left: 20;
+}
+
+.buttons{
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 80px;
+}
+
+.buttons:hover {
+  background-color: #f7fafa;
+}
+
+.buttons:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
