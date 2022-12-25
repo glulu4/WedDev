@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>I don't have a title yet :) </title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/styles/base16/espresso.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+  </head>
+  <body>
+    <h1>Select your sorting algorithm</h1>
+    <br>
+    <div align="right" class = "code-container">
+      <pre>
+        <code id="code" class = "Java">
+No Code To Display Yet
+      </code>
+    </pre>
+    </div>
+    <br>
+    <h2 id="algorithm-name"></h2>
+    <h3 id ="unsorted-array"></h3>
+    <div class="drop-down">
+      <label>Chose one of the following</label>
+        <select id="sort-type">
+          <option value="null"></option>
+          <option value="selection-sort">Selection Sort</option>
+          <option value="heap-sort">Heap Sort</option>
+          <option value="insertion-sort">Insertion Sort</option>
+          <option value="bubble-sort">Bubble Sort</option>
+          <option value="counting-sort">Counting Sort</option>
+          <option value="merge-sort">Merge Sort</option>
+        </select>
+      </div>
+      <button type="button" id="button" class = "buttons">Sort</button>
+
+
+
+    <h3 id = "sorted-array"></h3>
+	<script src="main.js"></script>
+  </body>
+</html>
